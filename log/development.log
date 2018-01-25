@@ -541,3 +541,370 @@ Processing by MoviesController#list as */*
 Completed 200 OK in 2ms (Views: 1.6ms)
 
 
+Started GET "/movies" for 127.0.0.1 at 2018-01-24 17:12:45 +0000
+Processing by MoviesController#list as */*
+Completed 500 Internal Server Error in 0ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /Users/conorbroderick/development/dublin-films-api/movies.json):
+  
+app/controllers/movies_controller.rb:3:in `read'
+app/controllers/movies_controller.rb:3:in `list'
+Started GET "/" for 127.0.0.1 at 2018-01-24 17:12:56 +0000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/conorbroderick/.rvm/gems/ruby-2.4.1@film_api/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/conorbroderick/.rvm/gems/ruby-2.4.1@film_api/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 46ms (Views: 26.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-24 17:13:26 +0000
+Processing by MoviesController#list as */*
+Completed 500 Internal Server Error in 0ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /Users/conorbroderick/development/dublin-films-api/movies.json):
+  
+app/controllers/movies_controller.rb:3:in `read'
+app/controllers/movies_controller.rb:3:in `list'
+Started GET "/movies" for 127.0.0.1 at 2018-01-24 17:13:45 +0000
+Processing by MoviesController#list as */*
+Completed 500 Internal Server Error in 0ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /Users/conorbroderick/development/dublin-films-api/movies.json):
+  
+app/controllers/movies_controller.rb:3:in `read'
+app/controllers/movies_controller.rb:3:in `list'
+Started GET "/movies" for 127.0.0.1 at 2018-01-24 17:13:49 +0000
+Processing by MoviesController#list as */*
+Completed 500 Internal Server Error in 0ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /Users/conorbroderick/development/dublin-films-api/movies.json):
+  
+app/controllers/movies_controller.rb:3:in `read'
+app/controllers/movies_controller.rb:3:in `list'
+Started GET "/movies" for 127.0.0.1 at 2018-01-24 17:13:58 +0000
+Processing by MoviesController#list as */*
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /Users/conorbroderick/development/dublin-films-api/movies.json):
+  
+app/controllers/movies_controller.rb:3:in `read'
+app/controllers/movies_controller.rb:3:in `list'
+Started GET "/movies" for 127.0.0.1 at 2018-01-24 17:15:27 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-24 17:15:32 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-24 17:31:39 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-24 17:31:43 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.8ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-24 17:31:55 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-24 17:32:25 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-24 17:32:35 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:29:59 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 5ms (Views: 2.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:30:15 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:30:55 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 3ms (Views: 1.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:31:34 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 2ms (Views: 1.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:32:04 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 3ms (Views: 2.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:33:10 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 17ms (Views: 16.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:33:29 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:33:52 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:33:57 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:34:12 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:36:24 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:36:33 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:37:18 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:41:16 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:41:23 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.8ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:41:33 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:41:44 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:43:33 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:43:36 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:43:56 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:44:03 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:44:09 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:44:20 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:44:29 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:45:57 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:46:39 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:53:39 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:54:13 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:55:19 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 10:55:53 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:00:09 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:02:16 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:03:58 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:04:21 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:07:25 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:07:27 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:17:43 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-01-25 11:17:43 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-01-25 11:17:43 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:18:59 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:19:57 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:22:22 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:22:42 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:22:54 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:23:45 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:27:39 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-01-25 11:28:04 +0000
+Processing by MoviesController#list as */*
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
