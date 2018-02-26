@@ -4,6 +4,7 @@ require 'json'
 require './environment'
 
 API_URL = ENV['api_url']
+API_KEY = ENV['api_key']
 CINEMA_URL = ENV['cinema_url']
 
 class Film
@@ -12,7 +13,7 @@ class Film
 		@title = title
 		@imdb_rating = imdb_rating
 	end
-    
+
     def as_json(options={})
         {
           title: @title,
@@ -48,14 +49,22 @@ end
 def getIMDBRatings(movie_titles)
 	movies = []
 	movie_titles.each { |title|
+ENV['api_url'] = 'http://www.omdbapi.com/?y=2017&apikey=b927896c&t='
 		resp = HTTParty.get(API_URL + title.gsub(' ', '+').gsub('\'', '')).parsed_response
-		movie = Film.new(title, resp["imdbRating"])
-		movies.push(movie)
+    # Try current year and then the previous year
+    current_year = Date.today.year.to_s
+		resp = HTTParty.get(API_URL + current_year + '&apikey=' + API_KEY + '&t=' + title.gsub(' ', '+').gsub('\'', '')).parsed_response
+    if resp["imdbRating"].nil?
+      current_year = (Date.today.year - 1).to_s
+  		resp = HTTParty.get(API_URL + current_year + '&apikey=' + API_KEY + '&t=' + title.gsub(' ', '+').gsub('\'', '')).parsed_response
+    end
+		rating = Film.new(title, resp["imdbRating"])
+		movies.push(rating)
 	}
 	return movies
 end
 
-movies = scrapeEntertainmentIE() 
+movies = scrapeEntertainmentIE()
 movies = getIMDBRatings(movies)
 data = Hash.new
 data["movies"] = movies
