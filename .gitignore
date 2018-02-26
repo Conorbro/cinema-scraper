@@ -1,5 +1,8 @@
 # Created by https://www.gitignore.io/api/rails
 
+environment.rb
+movies.json
+
 ### Rails ###
 *.rbc
 capybara-*.html
